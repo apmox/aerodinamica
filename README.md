@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+# Aerodinamica
+Verranno qui raccolti i concetti utili nello studio e nella comprensione dell'Aerodinamica.
+In particolare saranno affrontate le basi per la modellazione matematica, fisica e numerica di un fluido nel suo campo di moto.
+---
+## Esercitazioni numeriche
+### Esercitazioni 1 e 2: Fluido passante per una turbomacchina
+* Campo fluido simmetrico assialmente
+* Modellazione profilo turbomacchina
+* Leggi governanti il fluido
 
-You can use the [editor on GitHub](https://github.com/apmox/aerodinamica/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**Esercitazione 1**: Metodo delle differenze divise
+* Discretizzazione campo fluido con rettangoli
+    * Identificazione punti di contorno
+    * Identificazione punti o *nodi* di interesse interni al campo
+    * Identificazione nodi adiacenti ad ogni nodo
+    * Identificazione parametri $\lambda$ per i nodi vicini al contorno
+    * Assegnazione funzione di corrente iniziale ad ogni nodo
+* Implementazione leggi governanti con differenze divise parametrizzate
+* Individuazione nodi con valore di funzione di corrente desiderato
+* Interpolazione nodi con spline
+* Visualizzazione campo fluido e curva con funzione di corrente del valore desiderato
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**Esercitazione 2**: Metodo degli elementi finiti
+* Discretizzazione campo fluido con quadrilateri
+    * Modellazione curve mozzo e corona con parametrizzazione di ascissa curvilinea
+    * Suddivisione in nodi delle curve
+    * Suddivisione in nodi del campo interno a partire dai nodi nelle curve
+* Determinazione quadrilateri
+* Determinazione funzioni di forma
+`Da studiare la teoria per questa parte`
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/apmox/aerodinamica/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Esercitazione 3: Funzione potenziale per campo di moto indisturbato
+### Esercitazione 4: Funzione potenziale per campo di moto sorgente
