@@ -4,7 +4,8 @@ In particolare saranno affrontate le basi per la modellazione matematica, fisica
 
 ## Esercitazioni numeriche
 ### Esercitazioni 1 e 2: Fluido passante per una turbomacchina
-* Campo fluido simmetrico assialmente
+* _Definizione turbomacchina_
+* _Campo fluido simmetrico assialmente_
 * Modellazione profilo turbomacchina
 * Leggi governanti il fluido
 
