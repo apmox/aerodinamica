@@ -13,7 +13,7 @@ In particolare saranno affrontate le basi per la modellazione matematica, fisica
     * Identificazione punti di contorno
     * Identificazione punti o *nodi* di interesse interni al campo
     * Identificazione nodi adiacenti ad ogni nodo
-    * Identificazione parametri $\lambda$ per i nodi vicini al contorno
+    * Identificazione parametri $$\lambda$$ per i nodi vicini al contorno
     * Assegnazione funzione di corrente iniziale ad ogni nodo
 * Implementazione leggi governanti con differenze divise parametrizzate
 * Individuazione nodi con valore di funzione di corrente desiderato
