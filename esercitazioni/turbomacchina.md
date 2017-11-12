@@ -12,7 +12,7 @@ Dal vocabolario Treccani, la voce [turbomacchina](http://www.treccani.it/vocabol
 
 > Immagine t.m. reale: pompa e turbina
 
-La t.m., in questo caso eccessivamente semplificata, è composta da due elementi: il **mozzo**, parte rotante con asse di rotazione coincidente all'asse di simmetria; la **corona**, parte stazionaria che circonda il mozzo. Le pale non vengono incluse in questa semplificazione, ma la t.m. per mettere in movimento il fluido deve esserne provvista.
+La t.m., in questo caso eccessivamente semplificata, è composta da due elementi: il **mozzo**, parte rotante con asse di rotazione coincidente all'asse di simmetria; la **corona**, parte stazionaria che circonda il mozzo. Le pale non vengono incluse in questa semplificazione, ma la t.m. deve esserne provvista per mettere in movimento il fluido.
 
 > Immagine t.m. in 3d | Immagine t.m. 3d sezionata | Immagine sezione
 
