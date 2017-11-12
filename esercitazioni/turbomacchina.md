@@ -1,3 +1,8 @@
+---
+title: Turbomacchina semplice
+layout: post
+---
+
 # Campo fluido di una turbomacchina semplice
 Dal vocabolario Treccani, la voce [turbomacchina](http://www.treccani.it/vocabolario/turbomacchina/):
 
