@@ -12,7 +12,7 @@ Dal vocabolario Treccani, la voce [turbomacchina](http://www.treccani.it/vocabol
 
 Il fluido che scorre in una t.m. è un esempio di fluidodinamica interna: sono ben conosciute le condizioni di contorno dato che il sistema è chiuso.
 
-La t.m., in questo caso eccessivamente semplificata, è composta da due elementi: il **girante**, parte rotante con asse di rotazione coincidente all'asse di simmetria; la **corona**, parte stazionaria che circonda il girante. Le pale non vengono incluse in questa semplificazione, ma la t.m. deve esserne provvista per mettere in movimento il fluido.
+La t.m., in questo caso eccessivamente semplificata, è composta da due elementi: il **mozzo**, parte più vicina all'asse di simmetria; la **corona**, parte stazionaria che circonda il mozzo. Le pale non vengono incluse in questa semplificazione, ma la t.m. deve esserne provvista per mettere in movimento il fluido.
 
 > Immagine t.m. in 3d | Immagine t.m. 3d sezionata | Immagine sezione
 
@@ -26,7 +26,7 @@ Per modellare numericamente il profilo servono i seguenti parametri:
 
 || Da inserire nell'algoritmo | Misurabile sperimentalmente |
 |---|---|---|
-| 1 | Raggio interno del girante | Diametro girante |
+| 1 | Raggio interno del mozzo | Diametro mozzo |
 | 2 | Larghezza entrata | Diametro girante, diametro interno corona |
 | 3 | Larghezza uscita | Distanza all'usicta tra girante e corona |
 | 4 | Lunghezza campo fluido | Lunghezza girante, o lunghezza corona e distanza corona-girante |
@@ -40,9 +40,9 @@ Noti i parametri, vengono individuate le coordinate dei punti immediate `A`, `B`
 Si approssima il girante come composto da un cilindro allungato, una smussatura circolare con raggio di curvatura individuato, e un disco di spessore irrilevante e diametro misurabile. La corona viene vista come una cavità cilindrica che via via viene smussata e poi diventa una cavità conica.
 
 Bidimensionalmente il contorno del profilo si costruisce dunque come segue:
-* Entrata: retta verticale
-* Uscita: retta orizzontale
-* Girante: retta orizzontale, poi quarto di circonferenza, poi retta verticale
+* Entrata: retta orizzontale
+* Uscita: retta verticale
+* Mozzo: retta orizzontale, poi quarto di circonferenza, poi retta verticale
 * Corona: retta orizzontale, poi frazione di circonferenza, poi retta inclinata
 
 Ora che il dominio del campo di moto del fluido è determinato come una curva definita a tratti nel piano, al calcolatore si possono eseguire le discretizzazioni.
